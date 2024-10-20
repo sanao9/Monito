@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Navbar from './components/common/NavBar';
+import Banner from './components/Banner';
+import Card from './components/PetCard';
+import MBanner from './components/MidBannerr';
+import ProdCard from './components/ProductCard';
+import Sellers from './components/Sellers';
+import BBanner from './components/BotBanner';
+import PKnoledge from './components/PetKnoledge';
+import Footer from './components/common/Footer';
+import Category from './components/Category';
+import PDetails from './components/ProductDetails'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Banner/>
+      <Card/>
+      <MBanner/>
+      <ProdCard/>
+      <Sellers/>
+      <BBanner/>
+      <PKnoledge/>
+      <Category/>
+      <PDetails/>
+      <Footer/>
     </div>
   );
 }
