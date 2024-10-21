@@ -12,16 +12,16 @@ const Navbar = () => {
 
         {/* Menu Links */}
         <div className="hidden md:flex items-center space-x-6">
-          <a href="/" className="text-gray-700 hover:text-blue-900">
+          <a href="/" className="text-gray-700 hover:text-blue-950">
             Home
           </a>
-          <a href="/Category" className="text-gray-700 hover:text-blue-900">
+          <a href="/Category" className="text-gray-700 hover:text-blue-950">
             Category
           </a>
-          <a href="/about" className="text-gray-700 hover:text-blue-900">
+          <a href="/about" className="text-gray-700 hover:text-blue-950">
             About
           </a>
-          <a href="/contact" className="text-gray-700 hover:text-blue-900">
+          <a href="/contact" className="text-gray-700 hover:text-blue-950">
             Contact
           </a>
         </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
           <input
             type="text"
             placeholder="Search something here!"
-            className="pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600"
+            className="pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-darkBlue"
           />
           <svg
             className="absolute left-3 top-2 w-5 h-5 text-gray-400"
@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
 
         {/* Join Button */}
-        <button className="bg-blue-900 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition">
+        <button className="bg-darkBlue text-white px-6 py-2 rounded-full hover:bg-blue-950 transition">
           Join the community
         </button>
 

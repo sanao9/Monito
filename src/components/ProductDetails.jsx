@@ -60,9 +60,9 @@ const ProductDetailPage = () => {
           {/* Product Info */}
           <div className="sm:col-span-2 lg:col-span-3">
             <h1 className="text-3xl font-bold mb-3">Shiba Inu Sepia</h1>
-            <p className="text-xl font-semibold text-blue-600 mb-2">34,000,000 VND</p>
+            <p className="text-xl font-semibold text-darkBlue mb-2">34,000,000 VND</p>
             <div className="flex space-x-4 mb-6">
-              <button className="px-6 py-3 bg-blue-800 text-white rounded-full hover:bg-blue-950 transition">
+              <button className="px-6 py-3 bg-darkBlue text-white rounded-full hover:bg-blue-950 transition">
                 Contact us
               </button>
               <button className="flex items-center px-6 py-3 border-2 border-blue-900 text-blue-900 rounded-full hover:bg-white hover:text-blue-950 transition">

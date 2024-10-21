@@ -4,7 +4,7 @@ import img9 from '../assets/Rectangle 1.png'
 
 const BannerGrid = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-8 items-center bg-blue-900 rounded-lg h-100  p-8">
+    <div className="grid md:grid-cols-2 gap-8 items-center bg-darkBlue rounded-lg h-100  p-8">
         
       {/* Image Section */}
       <div className="flex justify-center md:justify-end">
@@ -29,13 +29,13 @@ const BannerGrid = () => {
 
         {/* Buttons */}
         <div className="flex space-x-4">
-          <button className="flex items-center px-6 py-3 border-2 border-white text-white rounded-full hover:bg-white hover:text-blue-900 transition">
+          <button className="flex items-center px-6 py-3 border-2 border-white text-white rounded-full hover:bg-white hover:text-blue-950 transition">
             View Intro
             <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 24 24">
               <path d="M8 5v14l11-7z" />
             </svg>
           </button>
-          <button className="px-6 py-3 bg-blue-800 text-white rounded-full hover:bg-blue-950 transition">
+          <button className="px-6 py-3 bg-darkBlue text-white rounded-full hover:bg-blue-950 transition">
             Explore Now
           </button>
         </div>

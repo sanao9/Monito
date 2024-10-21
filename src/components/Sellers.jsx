@@ -14,8 +14,8 @@ const PetSellers = () => {
         {/* Section Header */}
         <div className="flex justify-between items-start mb-8">
             <p>Proud to be part of</p>
-          <h2 className="text-2xl font-bold text-blue-900">Pet Sellers</h2>
-          <button className="flex items-center space-x-2 text-blue-900 font-semibold border border-blue-900 px-4 py-2 rounded-full hover:bg-blue-900 hover:text-white transition">
+          <h2 className="text-2xl font-bold text-darkBlue">Pet Sellers</h2>
+          <button className="flex items-center space-x-2 text-darkBlue font-semibold border border-darkBlue px-4 py-2 rounded-full hover:bg-blue-950 hover:text-white transition">
             <span>View all our sellers</span>
             <svg class="w-6 h-6 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>

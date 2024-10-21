@@ -9,7 +9,7 @@ const PetCard = ({ image, name, gene, age, price }) => {
         <h3 className="text-xl font-semibold text-gray-800">{name}</h3>
         <p className="text-gray-600">Gene: {gene}</p>
         <p className="text-gray-600">Age: {age}</p>
-        <p className="text-blue-900 font-semibold mt-2">{price} VND</p>
+        <p className="text-darkBlue font-semibold mt-2">{price} VND</p>
       </div>
     </div>
   );
@@ -48,10 +48,10 @@ const PetList = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl font-bold text-blue-900">
+          <h2 className="text-3xl font-bold text-darkBlue">
             Take A Look At Some Of Our Pets
           </h2>
-          <button className="flex items-center space-x-2 text-blue-900 font-semibold border border-blue-900 px-4 py-2 rounded-full hover:bg-blue-900 hover:text-white transition">
+          <button className="flex items-center space-x-2 text-darkBlue font-semibold border border-darkBlue px-4 py-2 rounded-full hover:bg-blue-950 hover:text-white transition">
             <span>View More</span>
             <svg className="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7"/>

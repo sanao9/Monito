@@ -33,7 +33,7 @@ const PetKnowledgeSection = () => {
             <h2 className="text-2xl font-semibold text-gray-700">You already know?</h2>
             <h3 className="text-3xl font-bold text-blue-900 mt-2">Useful Pet Knowledge</h3>
             <div className="flex justify-end">
-            <button className="flex items-center space-x-2 text-blue-900 font-semibold border border-blue-900 px-4 py-2 rounded-full hover:bg-blue-900 hover:text-white transition">
+            <button className="flex items-center space-x-2 text-darkBlue font-semibold border border-darkBlue px-4 py-2 rounded-full hover:bg-blue-950 hover:text-white transition">
             <span>View More</span>
 
              <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
